@@ -1,3 +1,23 @@
+# Using Hadoop for historical sales data analysis 
+**Note:** To understand the execution of files, please [click here](BDS_Assignment2.pdf)
+
+##### Business context:
+
+ A large multi-national retail chain has sales orders data across regions and different sales channels for a large variety of item types. The business team wants to use this data to analyze various aspects of sales  - e.g. top selling items in a region, regions with maximum profit in a certain item type, if there is a significant difference in revenue in two item types across regions etc. 
+
+##### Problem statement:
+
+As the data analytics team, use the sales transaction data set with about 100K records to answer these questions below — 
+
+1. Average unit_price by country for a given item type in a certain year
+
+2. Total units_sold by year for a given country and a given item type
+
+3. Find the max and min units_sold in any order for each year by country for a given item type. Use a custom partitioner class instead of default hash based.
+
+4. What are the top 10 order id for a given year by the total_profit 
+
+You have to show the above analysis working on a Hadoop system using map reduce code, preferably in Java or Python. You can do data preparation steps as required before running a MapReduce job to answer these questions above.
 
 ### Question1: 
 Average unit_price by country for a given item type in a certain year
@@ -8,7 +28,6 @@ Average unit_price by country for a given item type in a certain year
 
 * O/p format: 
 (Country, Item_type, Year)  Average Unit Price
-
 
 
 ### Question2: 
@@ -41,4 +60,3 @@ What are the top 10 order id for a given year by the total_profit
 Year  [ (Profit, OrderID1), (Profit, OrderID2), (Profit, OrderID3), ……..(Profit, OrderID10)]
 
 
-**Note:** To understand the execution of files, please [click here](BDS_Assignment2.pdf)
