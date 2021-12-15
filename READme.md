@@ -1,11 +1,11 @@
 # Using Hadoop for historical sales data analysis 
 **Note:** To understand the execution of files, please [click here](BDS_Assignment2.pdf)
 
-##### Business context:
+### Business context:
 
  A large multi-national retail chain has sales orders data across regions and different sales channels for a large variety of item types. The business team wants to use this data to analyze various aspects of sales  - e.g. top selling items in a region, regions with maximum profit in a certain item type, if there is a significant difference in revenue in two item types across regions etc. 
 
-##### Problem statement:
+### Problem statement:
 
 As the data analytics team, use the sales transaction data set with about 100K records to answer these questions below — 
 
